@@ -30,7 +30,7 @@ public class Main {
             preparedStatement.setString(1,firstName);
             preparedStatement.setString(2,"Malloy");
             preparedStatement.setInt(3,age);
-            
+
             preparedStatement.execute();
 
 
